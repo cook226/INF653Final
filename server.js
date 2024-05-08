@@ -10,7 +10,7 @@ const cors = require('cors');
 const { applyDefaults } = require('./model/State');
 const connectDB = require('./config/dbConn');
 const mongoose = require('mongoose');
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3500;
 connectDB();
 app.use(cors());
 
